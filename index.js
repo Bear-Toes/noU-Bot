@@ -19,4 +19,4 @@ bot.on("guildMemberAdd", member =>{
     return welcomechannel.send(embed);
 });
 
-bot.login('NDE2MjY1NTI4NDQxODMxNDM1.DXB9HQ.t5eIW7uc7JwyUpRkIhbw_PTm0dA');
+bot.login(process.env.BOT_TOKEN);
