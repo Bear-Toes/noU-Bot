@@ -5,7 +5,7 @@ bot.on("message", message => {
     if (bot.user.id === message.author.id) {
         return;
     }
-    if (message.content.toLowerCase() === "no u") {
+    if (message.content.includes("no u ")||message.content.includes(" no u")||message.content==="no u") {
         message.channel.send("no u");
     }
 });
